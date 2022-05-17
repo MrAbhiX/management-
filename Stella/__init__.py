@@ -36,7 +36,7 @@ SUDO_USERS = config.settings.sudo_users
 PREFIX = config.settings.commands.prefix
 BACKUP_CHAT = config.settings.backup.chat_id
 token = os.environ.get("token", None)
-
+BOT_NAME = os.environ.get("BOT_NAME", None)
 
 StellaCli = Client(
     session_name='StellaSession',
