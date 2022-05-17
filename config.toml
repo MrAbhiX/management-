@@ -1,29 +1,29 @@
 [telegram]
-api_id = 0
-api_hash = ""
+api_id = 6067591
+api_hash = 94e17044c2393f43fda31d3afe77b26b
 
 [tekegram.bot]
-bot_token = ""
-name = ""
-username = ""
-user_id = 0
-id = 0
+bot_token = 5302321731:AAEnpbul0wmbaXqu9KNkPlp9JKDpEavTONg
+name = Management
+username = AbhiYouTubeDLBot
+user_id = 5289852546
+
 
 [database]
-database_url = ""
+database_url = mongodb+srv://GANDDEDO:LUNDLELE@cluster0.tae5r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 [settings]
-owner = 0
-sudo_users = []
+owner = 5289852546
+sudo_users = 5289852546
 
 [settings.commands]
 prefix = ['!', '/']
 
 [settings.log]
-chat_id = 0
+chat_id = -1001658407031
 
 [settings.backup]
-chat_id = 0
+chat_id = -1001658407031
 
 [api.stella]
-api_key = ""
+api_key = 6067591
