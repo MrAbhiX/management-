@@ -40,7 +40,7 @@ StellaCli = Client(
     session_name='StellaSession',
     api_id=config.telegram.api_id,
     api_hash=config.telegram.api_hash,
-    bot_token=config.telegram.bot.token
+    bot_token=config.telegram.bot.bot_token
 )
 
 # MongoDatabase dns configurations
