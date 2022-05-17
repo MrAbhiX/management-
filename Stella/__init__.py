@@ -14,7 +14,7 @@
 
 #    You should have received a copy of the GNU Affero General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+import os
 import sys
 import dns.resolver
 
@@ -29,9 +29,8 @@ from Stella.StellaGban import StellaClient
 #from stellagban import StellaClient
 
 OWNER_ID = config.settings.owner
-BOT_ID = config.telegram.bot.id
-BOT_NAME = config.telegram.bot.name
-BOT_USERNAME = config.telegram.bot.username
+BOT_ID = int(os.environ.get("BOT_ID", None))
+BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 LOG_CHANNEL = config.settings.log.chat_id
 SUDO_USERS = config.settings.sudo_users
 PREFIX = config.settings.commands.prefix
