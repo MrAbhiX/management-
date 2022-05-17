@@ -35,12 +35,14 @@ LOG_CHANNEL = config.settings.log.chat_id
 SUDO_USERS = config.settings.sudo_users
 PREFIX = config.settings.commands.prefix
 BACKUP_CHAT = config.settings.backup.chat_id
+BOT_TOKEN = os.environ.get("TOKEN", None)
+
 
 StellaCli = Client(
     session_name='StellaSession',
     api_id=config.telegram.api_id,
     api_hash=config.telegram.api_hash,
-    bot_token=config.telegram.bot.bot_token
+    bot_token=BOT_TOKEN
 )
 
 # MongoDatabase dns configurations
