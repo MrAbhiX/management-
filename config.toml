@@ -4,13 +4,13 @@ api_hash = "94e17044c2393f43fda31d3afe77b26b"
 
 [tekegram.bot]
 bot_token = "5302321731:AAEnpbul0wmbaXqu9KNkPlp9JKDpEavTONg"
-name = Management
+name = "Management"
 username = "AbhiYouTubeDLBot"
 user_id = 5289852546
 
 
 [database]
-database_url = mongodb+srv://GANDDEDO:LUNDLELE@cluster0.tae5r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+database_url = "mongodb+srv://GANDDEDO:LUNDLELE@cluster0.tae5r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 [settings]
 owner = 5289852546
