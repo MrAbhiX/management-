@@ -5,15 +5,15 @@
   "repository": "https://github.com/MrAbhiX/OMFOMUSIC",
   
   "env": {
-    "API_ID": {
+    "api_id": {
       "description": "Fill it with your API_ID, get it from my.telegram.org/apps",
       "required": true
     },
-    "API_HASH": {
+    "api_hash": {
       "description": "Fill it with your API_HASH, get it from my.telegram.org/apps",
       "required": true
     },
-    "BOT_TOKEN": {
+    "bot_token": {
       "description": "Fill it with your Bot token, get it from @BotFather",
       "required": true
     },
